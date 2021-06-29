@@ -2,15 +2,14 @@
   "name": "vue-devops",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/shining8543/vue-devops",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "predeploy": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "predeploy": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -32,5 +31,6 @@
     "prettier": "^2.2.1",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
-  }
+  },
+  "homepage": "https://github.com/shining8543/vue-devops"
 }
