@@ -1,4 +1,5 @@
 <template>
+  <div>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Won App" />
 </template>
